@@ -1,0 +1,7 @@
+/// A mixin that sets the appearance in a browser independent way.
+/// @param {string} $appearance The type of appearance to use.
+@mixin zx-appearance($appearance) {
+  -moz-appearance: $appearance;
+  -webkit-appearance: $appearance;
+  appearance: $appearance;
+}
